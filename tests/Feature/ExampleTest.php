@@ -10,19 +10,22 @@ class ExampleTest extends TestCase
 {
     use RefreshDatabase;
 
-    public function test_guests_are_redirected_to_login_from_home(): void
+    public function test_guests_can_view_welcome_page(): void
     {
         $response = $this->get('/');
 
-        $response->assertRedirect(route('login'));
+        $response->assertStatus(200);
+        $response->assertSee('Signal-to-Noise Hub');
+        $response->assertSee('Get Started');
     }
 
-    public function test_authenticated_users_are_redirected_to_sources_from_home(): void
+    public function test_authenticated_users_can_view_welcome_page(): void
     {
         $user = User::factory()->create();
 
         $response = $this->actingAs($user)->get('/');
 
-        $response->assertRedirect(route('sources.index'));
+        $response->assertStatus(200);
+        $response->assertSee('Open Feed Hub');
     }
 }
