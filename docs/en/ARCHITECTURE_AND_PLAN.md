@@ -1,6 +1,6 @@
 # Architecture & 6-Phase Implementation Plan — Signal-to-Noise Hub
 
-> [Русская версия](../ru/ARCHITECTURE_AND_PLAN.md) · [Project Guide](README.md) · [Step-by-Step Laravel Tutorial & Build History](TUTORIAL_AND_BUILD_HISTORY.md)
+> [Українська версія](../uk/ARCHITECTURE_AND_PLAN.md) · [Project Guide](README.md) · [Step-by-Step Laravel Tutorial & Build History](TUTORIAL_AND_BUILD_HISTORY.md)
 
 This document captures the system architecture, key Architecture Decision Records (ADRs), database schema, and the 6-phase implementation roadmap.
 

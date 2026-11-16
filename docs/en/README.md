@@ -1,6 +1,6 @@
 # Signal-to-Noise Hub — Project Guide
 
-> [Русская версия](../ru/README.md) · [Architecture & Implementation Plan](ARCHITECTURE_AND_PLAN.md) · [Step-by-Step Laravel Tutorial & Build History](TUTORIAL_AND_BUILD_HISTORY.md)
+> [Українська версія](../uk/README.md) · [Architecture & Implementation Plan](ARCHITECTURE_AND_PLAN.md) · [Step-by-Step Laravel Tutorial & Build History](TUTORIAL_AND_BUILD_HISTORY.md)
 
 **Signal-to-Noise Hub** is a personal, server-side content aggregator and noise-filtering reader built on **Laravel 13** and **Livewire 4**. It collects disparate feeds (GitHub Releases `.atom`, RSS/Atom blogs, public subreddits `.rss`, and JSON Feeds), filters noise using custom user rules, and delivers the curated stream through a web reader, private RSS endpoints, and scheduled email digests.
 

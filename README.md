@@ -4,7 +4,7 @@
 
 > **Documentation:**
 > - **English:** [Project Guide](docs/en/README.md) · [Architecture & 6-Phase Plan](docs/en/ARCHITECTURE_AND_PLAN.md) · [Step-by-Step Laravel Tutorial & Build History](docs/en/TUTORIAL_AND_BUILD_HISTORY.md)
-> - **Русский:** [Руководство по проекту](docs/ru/README.md) · [Архитектура и план (6 фаз)](docs/ru/ARCHITECTURE_AND_PLAN.md) · [Пошаговый учебник и история разработки](docs/ru/TUTORIAL_AND_BUILD_HISTORY.md)
+> - **Українська:** [Посібник по проєкту](docs/uk/README.md) · [Архітектура та план (6 фаз)](docs/uk/ARCHITECTURE_AND_PLAN.md) · [Покроковий підручник та історія розробки](docs/uk/TUTORIAL_AND_BUILD_HISTORY.md)
 
 ---
 

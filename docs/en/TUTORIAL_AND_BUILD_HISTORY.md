@@ -1,6 +1,6 @@
 # Step-by-Step Laravel Tutorial & Build History — Signal-to-Noise Hub
 
-> [Русская версия](../ru/TUTORIAL_AND_BUILD_HISTORY.md) · [Project Guide](README.md) · [Architecture & Implementation Plan](ARCHITECTURE_AND_PLAN.md)
+> [Українська версія](../uk/TUTORIAL_AND_BUILD_HISTORY.md) · [Project Guide](README.md) · [Architecture & Implementation Plan](ARCHITECTURE_AND_PLAN.md)
 
 This document preserves the complete step-by-step build history of **Signal-to-Noise Hub** — every CLI command executed, the Laravel and PHP concepts learned at each milestone, and what was built across Phases 1–6.
 
