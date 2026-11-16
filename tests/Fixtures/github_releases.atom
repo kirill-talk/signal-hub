@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>tag:github.com,2008:https://github.com/laravel/framework/releases</id>
+    <title>Release notes from framework</title>
+    <updated>2026-11-16T10:00:00Z</updated>
+    <entry>
+        <id>tag:github.com,2008:Repository/1863329/v13.1.0</id>
+        <updated>2026-11-16T09:45:00Z</updated>
+        <link rel="alternate" type="text/html" href="https://github.com/laravel/framework/releases/tag/v13.1.0"/>
+        <title>v13.1.0</title>
+        <content type="html">&lt;h3&gt;What's Changed&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Improved Queue RateLimiter stability&lt;/li&gt;&lt;/ul&gt;&lt;script&gt;console.log('bad')&lt;/script&gt;</content>
+        <author>
+            <name>taylorotwell</name>
+        </author>
+    </entry>
+    <entry>
+        <id>tag:github.com,2008:Repository/1863329/v13.0.9</id>
+        <updated>2026-11-14T18:20:00Z</updated>
+        <link rel="alternate" type="text/html" href="https://github.com/laravel/framework/releases/tag/v13.0.9"/>
+        <title>v13.0.9 (Security Patch)</title>
+        <summary type="html">&lt;p&gt;Fixes a minor session cookie edge case.&lt;/p&gt;</summary>
+        <author>
+            <name>driesvints</name>
+        </author>
+    </entry>
+</feed>

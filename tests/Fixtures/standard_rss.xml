@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Laravel Engineering Blog</title>
+        <link>https://blog.example.com</link>
+        <description>Backend engineering articles and security notes</description>
+        <item>
+            <title>Securing Laravel Applications in Production</title>
+            <link>https://blog.example.com/posts/securing-laravel</link>
+            <guid isPermaLink="true">https://blog.example.com/posts/securing-laravel</guid>
+            <dc:creator>Taylor Otwell</dc:creator>
+            <pubDate>Mon, 16 Nov 2026 08:30:00 +0000</pubDate>
+            <description>Short fallback summary.</description>
+            <content:encoded><![CDATA[
+                <script>alert('xss')</script>
+                <p onclick="steal()">Clean paragraph about <strong>security</strong>.</p>
+                <a href="javascript:evil()">Bad link</a>
+                <a href="https://laravel.com/docs" style="color:red">Docs</a>
+                <img src="https://tracker.example.com/pixel.gif" width="1" height="1" />
+            ]]></content:encoded>
+        </item>
+        <item>
+            <title>Queue Workers &amp; SQLite WAL Tuning</title>
+            <atom:link rel="alternate" href="https://blog.example.com/posts/sqlite-wal" />
+            <guid>post-sqlite-wal-2026</guid>
+            <author>Nuno Maduro</author>
+            <dc:date>2026-11-15T14:15:00Z</dc:date>
+            <description><![CDATA[<p>Configure <code>journal_mode=wal</code> for high concurrency.</p>]]></description>
+        </item>
+    </channel>
+</rss>

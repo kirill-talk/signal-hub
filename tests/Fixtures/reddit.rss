@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.reddit.com/r/laravel/.rss</id>
+    <title>Laravel News and Discussion</title>
+    <updated>2026-11-16T11:00:00+00:00</updated>
+    <entry>
+        <author>
+            <name>/u/laravel_dev</name>
+        </author>
+        <id>t3_123abc</id>
+        <link href="https://www.reddit.com/r/laravel/comments/123/test/"/>
+        <published>2026-11-16T10:30:00+00:00</published>
+        <updated>2026-11-16T10:35:00+00:00</updated>
+        <title>Livewire 4 Tips for High-Throughput Tables</title>
+        <content type="html">&lt;div class="md"&gt;&lt;p&gt;Here is how we optimized &lt;strong&gt;Livewire&lt;/strong&gt; pagination.&lt;/p&gt;&lt;/div&gt;&lt;iframe src="https://evil.example.com"&gt;&lt;/iframe&gt;</content>
+    </entry>
+</feed>

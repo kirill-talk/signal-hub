@@ -1,0 +1,30 @@
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "JSON Feed Engineering Blog",
+    "home_page_url": "https://jsonfeed.example.com/",
+    "feed_url": "https://jsonfeed.example.com/feed.json",
+    "items": [
+        {
+            "id": "json-entry-1",
+            "url": "https://jsonfeed.example.com/posts/json-feed-1-1",
+            "title": "Why JSON Feed Matters",
+            "content_html": "<p>Clean <em>JSON</em> structure for modern syndication.</p><script>alert(1)</script>",
+            "date_published": "2026-11-16T07:00:00Z",
+            "authors": [
+                {
+                    "name": "Brent Simmons"
+                }
+            ]
+        },
+        {
+            "id": "json-entry-2",
+            "url": "https://jsonfeed.example.com/posts/plain-text",
+            "title": "Lightweight Parsing in PHP",
+            "content_text": "No XML parser overhead required.",
+            "date_published": "2026-11-15T12:00:00Z",
+            "author": {
+                "name": "Manton Reece"
+            }
+        }
+    ]
+}
